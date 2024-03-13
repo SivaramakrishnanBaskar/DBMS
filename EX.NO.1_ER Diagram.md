@@ -13,12 +13,60 @@
 5. Specify attributes unique, multivalued and composite attributes.
 
 ### ER Diagram 
-
+![alt text](<WhatsApp Image 2024-03-13 at 11.34.26_7a416f4d.jpg>)
 
 ### Relational model
-
+![alt text](<WhatsApp Image 2024-03-13 at 11.34.25_6bfb0bcb.jpg>)
 
 ### SQL DDL Schema 
+```sql
+CREATE TABLE Employee
+(
+  FName INT NOT NULL,
+  LName INT NOT NULL,
+  Minit INT NOT NULL,
+  Address INT NOT NULL,
+  Salary INT NOT NULL,
+  Bdate INT NOT NULL,
+  Ssn INT NOT NULL,
+  Sex INT NOT NULL,
+  PRIMARY KEY (Ssn)
+);
+
+CREATE TABLE Department
+(
+  Name INT NOT NULL,
+  Number INT NOT NULL,
+  PRIMARY KEY (Name),
+  UNIQUE (Number)
+);
+
+CREATE TABLE Project
+(
+  Location INT NOT NULL,
+  Name INT NOT NULL,
+  Number INT NOT NULL,
+  PRIMARY KEY (Name),
+  UNIQUE (Number)
+);
+
+CREATE TABLE Dependent
+(
+  Sex INT NOT NULL,
+  Relationship INT NOT NULL,
+  Birth_date INT NOT NULL,
+  Name INT NOT NULL,
+  PRIMARY KEY (Name)
+);
+
+CREATE TABLE Department_Locations
+(
+  Locations INT NOT NULL,
+  Name INT NOT NULL,
+  PRIMARY KEY (Locations, Name),
+  FOREIGN KEY (Name) REFERENCES Department(Name)
+);
+```
 
 ## RESULT 
 <div align="justify">
