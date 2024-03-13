@@ -13,10 +13,10 @@
 5. Specify attributes unique, multivalued and composite attributes.
 
 ### ER Diagram 
-![alt text](<WhatsApp Image 2024-03-13 at 11.34.26_7a416f4d.jpg>)
+![WhatsApp Image 2024-03-13 at 11 34 26_238cdf43](https://github.com/SivaramakrishnanBaskar/DBMS/assets/119476322/4583b70a-02cb-4ed9-a0e8-c1420b5e9904)
 
 ### Relational model
-![alt text](<WhatsApp Image 2024-03-13 at 11.34.25_6bfb0bcb.jpg>)
+![WhatsApp Image 2024-03-13 at 11 34 25_e4b030dc](https://github.com/SivaramakrishnanBaskar/DBMS/assets/119476322/d5c3f10d-1adb-4413-8f0d-58b9d6a47232)
 
 ### SQL DDL Schema 
 ```sql
