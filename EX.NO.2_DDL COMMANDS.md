@@ -27,7 +27,6 @@ To create a student database and execute DDL queries using SQL.
 ### SQL QUERY: 
 ```
  create table learner(RegisterNumber int,Name varchar(100),Age int,Address varchar(250),PhoneNumber int) ;
-
 ```
 
 ### OUTPUT:
@@ -38,56 +37,41 @@ To create a student database and execute DDL queries using SQL.
 ### SQL QUERY: 
 ```
  alter table learner add Collage varchar(20);
-
 ```
 
 ### OUTPUT:
 ![image](https://github.com/SivaramakrishnanBaskar/DBMS/assets/119476322/66d02ad3-ff8e-441a-8b86-0ef9b658177d)
 
 
-### 4) Rename the student table to mystudent
+### 3) Rename the student table to mystudent
 
 ### SQL QUERY: 
 ```
  rename learner to students;
-
 ```
 
 ### OUTPUT:
 ![image](https://github.com/SivaramakrishnanBaskar/DBMS/assets/119476322/e75f4fa8-6fe1-40c9-bdfb-d21482a15a7d)
 
 
-### 5) Delete the mystudent rows using truncate keyword
+### 4) Delete the mystudent rows using truncate keyword
 
 ### SQL QUERY: 
 ```
  truncate table students ;
-
 ```
 
 ### OUTPUT:
 ![image](https://github.com/SivaramakrishnanBaskar/DBMS/assets/119476322/6f10dc12-5b27-4200-833e-a85882e9c3ba)
 
-### 4) Drop the mystudent table
+### 5) Drop the mystudent table
  
 ### SQL QUERY: 
 ```
  drop table students;
-
 ```
-
 ### OUTPUT:
 ![image](https://github.com/SivaramakrishnanBaskar/DBMS/assets/119476322/42d72dc3-db28-4644-b090-b2615e46960a)
 
-
-
-
-
-
-
-
-
 ## Result:
-         Thus the basic DDL commands in SQL are executed. 
-
-
+Thus the basic DDL commands in SQL are executed. 
