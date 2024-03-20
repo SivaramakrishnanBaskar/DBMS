@@ -1,10 +1,11 @@
 # EXP NO 2: DATA DEFINITION LANGUGE COMMANDS 
-### DATE
-## AIM:
-To create a student database and execute DDL queries using SQL.
 
+### DATE: 20/03/2024
+
+## AIM: To create a student database and execute DDL queries using SQL.
 
 ## THEORY
+
 ### DDL (Data Definition Language)
 
 * DDL or Data Definition Language actually consists of the SQL commands that can be used to define the database schema.
@@ -42,7 +43,6 @@ To create a student database and execute DDL queries using SQL.
 ### OUTPUT:
 ![image](https://github.com/SivaramakrishnanBaskar/DBMS/assets/119476322/66d02ad3-ff8e-441a-8b86-0ef9b658177d)
 
-
 ### 3) Rename the student table to mystudent
 
 ### SQL QUERY: 
@@ -52,7 +52,6 @@ To create a student database and execute DDL queries using SQL.
 
 ### OUTPUT:
 ![image](https://github.com/SivaramakrishnanBaskar/DBMS/assets/119476322/e75f4fa8-6fe1-40c9-bdfb-d21482a15a7d)
-
 
 ### 4) Delete the mystudent rows using truncate keyword
 
